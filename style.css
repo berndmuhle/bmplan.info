@@ -1,77 +1,53 @@
 
 body {
-  margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background-color: #ffffff;
+  margin: 0;
   color: #111;
-  line-height: 1.6;
+  background: #fff;
 }
 header {
-  background-color: #002B3E;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background: #002B3E;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.logo {
+  height: 40px;
 }
 nav a {
-  margin: 0 1rem;
   color: white;
   text-decoration: none;
+  margin-left: 1rem;
   font-weight: 500;
 }
 .hero {
   background-color: #00B295;
   color: white;
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
   text-align: center;
 }
-.btn {
-  display: inline-block;
-  margin-top: 1.5rem;
-  padding: 0.8rem 1.5rem;
-  background-color: #002B3E;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 4px;
-}
-footer {
-  background-color: #002B3E;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  margin-top: 4rem;
-}
-section.content, section.services {
+.content, .intro {
   padding: 2rem;
   max-width: 1000px;
   margin: auto;
 }
-.grid {
-  display: flex;
-  gap: 1rem;
-}
-.grid div {
-  flex: 1;
+footer {
+  background: #002B3E;
+  color: white;
+  padding: 1rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 form input, form textarea {
   width: 100%;
-  padding: 0.5rem;
   margin-bottom: 1rem;
-  border: 1px solid #ccc;
+  padding: 0.5rem;
 }
 form button {
   background-color: #00B295;
-  border: none;
   color: white;
+  border: none;
   padding: 0.7rem 1.2rem;
-  cursor: pointer;
-}
-img {
-  width: 100%;
-  height: auto;
-  margin-top: 1rem;
 }
