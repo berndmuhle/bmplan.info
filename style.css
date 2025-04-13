@@ -4,6 +4,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #ffffff;
   color: #111;
+  line-height: 1.6;
 }
 header {
   background-color: #002B3E;
@@ -22,21 +23,12 @@ nav a {
 .hero {
   background-color: #00B295;
   color: white;
-  padding: 6rem 2rem;
+  padding: 5rem 2rem;
   text-align: center;
-}
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-.hero p {
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin: auto;
 }
 .btn {
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   padding: 0.8rem 1.5rem;
   background-color: #002B3E;
   color: white;
@@ -50,4 +42,36 @@ footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
+  margin-top: 4rem;
+}
+section.content, section.services {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+.grid {
+  display: flex;
+  gap: 1rem;
+}
+.grid div {
+  flex: 1;
+  text-align: center;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+}
+form button {
+  background-color: #00B295;
+  border: none;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
 }
